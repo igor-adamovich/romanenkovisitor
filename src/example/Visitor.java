@@ -1,4 +1,4 @@
-package exmaple;
+package example;
 
 public class Visitor {
 	public int add(Add expr) {

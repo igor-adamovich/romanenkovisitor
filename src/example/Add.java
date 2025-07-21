@@ -1,4 +1,4 @@
-package exmaple;
+package example;
 
 public class Add extends Expression {
 	public Expression a, b;

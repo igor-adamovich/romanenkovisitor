@@ -1,4 +1,4 @@
-package exmaple;
+package example;
 
 public class Cst extends Expression {
 	public int c;
