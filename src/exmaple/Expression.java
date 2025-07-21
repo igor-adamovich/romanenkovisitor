@@ -8,7 +8,6 @@ public class Expression {
 	
 	public int type;
 	
-	@Specialize
 	public static int eval(Visitor visitor, Expression expr) {
 		switch (expr.type) {
 			case CST: return visitor.cst((Cst) expr);
@@ -16,7 +15,6 @@ public class Expression {
 		}
 	}
 	
-	@Specialize
 	public static int expr_val(Expression expr) {
 		return eval(new Visitor(), expr);
 	}
